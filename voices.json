@@ -1,0 +1,18 @@
+{
+  "format": "zen-tts-models-index",
+  "version": 1,
+  "repository": "https://github.com/kojira/zen-tts-models",
+  "voices": [
+    {
+      "id": "bluesky",
+      "name": { "ja": "Blueskyちゃん", "en": "Bluesky-chan" },
+      "version": "1.0.0",
+      "styles": ["neutral", "happy", "sad", "angry", "apologetic"],
+      "zenTts": ">=1.1.0",
+      "url": "https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.0.0/bluesky.ztm",
+      "bytes": 26075652,
+      "sha256": "bcd817427f8b1e214d016c2f1712edde13dd677c37205bab6872dbfe61361345",
+      "info": "voices/bluesky/voice.json"
+    }
+  ]
+}
