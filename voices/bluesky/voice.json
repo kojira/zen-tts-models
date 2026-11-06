@@ -1,21 +1,21 @@
 {
   "id": "bluesky",
   "name": { "ja": "Blueskyちゃん", "en": "Bluesky-chan" },
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": {
     "ja": "明るく高めの、若い女性の声。「〜ですわ」「お見知りおきを」のような、上品なお嬢様口調によく合います。",
     "en": "A bright, high-pitched young woman's voice that suits an elegant, refined way of speaking (\"ojousama\" style)."
   },
   "styles": ["neutral", "happy", "sad", "angry", "apologetic"],
-  "zenTts": ">=1.1.0",
-  "g2pSha256": "1a8877226dc7022279200eed6399e9ff0413aa9f18eaf5bf6a92b554ef072367",
+  "zenTts": ">=1.2.0",
+  "g2pSha256": "33182b3f988e03b37b5553f1fd25f6992d57d0e7c1777a868c2755e42168a15e",
   "synthetic": true,
   "release": {
-    "tag": "bluesky-v1.0.0",
+    "tag": "bluesky-v1.1.0",
     "asset": "bluesky.ztm",
-    "url": "https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.0.0/bluesky.ztm",
-    "bytes": 26075652,
-    "sha256": "bcd817427f8b1e214d016c2f1712edde13dd677c37205bab6872dbfe61361345"
+    "url": "https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.1.0/bluesky.ztm",
+    "bytes": 27650016,
+    "sha256": "fccfa172ab5d687e617d62cbb7154d36ef2bc0394cba97ef4bb2abec7c92df93"
   },
   "samples": {
     "neutral": "samples/neutral.m4a",

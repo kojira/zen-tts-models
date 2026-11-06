@@ -9,14 +9,14 @@
 
 | id | 名前 | 声 | スタイル | 版 | ダウンロード | 大きさ | SHA-256 | サンプル |
 |---|---|---|---|---|---|---|---|---|
-| `bluesky` | [Blueskyちゃん](voices/bluesky/) | 明るく高めの、若い女性の声。上品なお嬢様口調によく合う | neutral / happy / sad / angry / apologetic | 1.0.0 | [bluesky.ztm](https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.0.0/bluesky.ztm) | 26.1 MB | `bcd81742…02ea8`（[全体](voices/bluesky/voice.json)） | [neutral](voices/bluesky/samples/neutral.m4a)・[happy](voices/bluesky/samples/happy.m4a)・[sad](voices/bluesky/samples/sad.m4a)・[angry](voices/bluesky/samples/angry.m4a)・[apologetic](voices/bluesky/samples/apologetic.m4a)・[長め](voices/bluesky/samples/long-neutral.m4a) |
+| `bluesky` | [Blueskyちゃん](voices/bluesky/) | 明るく高めの、若い女性の声。上品なお嬢様口調によく合う | neutral / happy / sad / angry / apologetic | 1.1.0 | [bluesky.ztm](https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.1.0/bluesky.ztm) | 27.7 MB | `fccfa172…c92df93`（[全体](voices/bluesky/voice.json)） | [neutral](voices/bluesky/samples/neutral.m4a)・[happy](voices/bluesky/samples/happy.m4a)・[sad](voices/bluesky/samples/sad.m4a)・[angry](voices/bluesky/samples/angry.m4a)・[apologetic](voices/bluesky/samples/apologetic.m4a)・[長め](voices/bluesky/samples/long-neutral.m4a) |
 
 - 機械で読める一覧：[`voices.json`](voices.json)。voice ごとの詳細：`voices/<id>/voice.json`。
 - 配布は voice ごとの GitHub リリース（タグ `<id>-v<版>`、添付ファイル `<id>.ztm`）です。モデルはリポジトリには入れていません。
 
 ## 使い方
 
-ZEN-TTS 1.1.0 以降で、`model` に `.ztm` を指定します。読み（G2P）は ZEN-TTS の `models/g2p/` を使います（ZEN-TTS のリポジトリ・パッケージに入っています）。
+ZEN-TTS 1.2.0 以降で、`model` に `.ztm` を指定します（Blueskyちゃん 1.0.0 は ZEN-TTS 1.1.0 用で、リリース [`bluesky-v1.0.0`](https://github.com/kojira/zen-tts-models/releases/tag/bluesky-v1.0.0) に残しています）。読み（G2P）は ZEN-TTS の `models/g2p/` を使います（ZEN-TTS のリポジトリ・パッケージに入っています）。
 
 1. `.ztm` をダウンロードします（`sha256sum bluesky.ztm` で、上の SHA-256 と同じか確かめてください）。
 2. **ブラウザ**：`.ztm` を自分のサイトに置いて、その URL を指定します。
@@ -72,9 +72,9 @@ Voice models (`.ztm`) for the Japanese text-to-speech engine [ZEN-TTS](https://g
 
 | id | Name | Styles | Version | Download | SHA-256 |
 |---|---|---|---|---|---|
-| `bluesky` | Bluesky-chan (Blueskyちゃん) — a bright, high-pitched young woman's voice that suits an elegant "ojousama" way of speaking | neutral / happy / sad / angry / apologetic | 1.0.0 | [bluesky.ztm](https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.0.0/bluesky.ztm) (26.1 MB) | `bcd817427f8b1e214d016c2f1712edde13dd677c37205bab6872dbfe61361345` |
+| `bluesky` | Bluesky-chan (Blueskyちゃん) — a bright, high-pitched young woman's voice that suits an elegant "ojousama" way of speaking | neutral / happy / sad / angry / apologetic | 1.1.0 | [bluesky.ztm](https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.1.0/bluesky.ztm) (27.7 MB) | `fccfa172ab5d687e617d62cbb7154d36ef2bc0394cba97ef4bb2abec7c92df93` |
 
-- Use with ZEN-TTS 1.1.0 or later: `ZenTts.load({ modelsUrl, model: '<url of the .ztm>' })` or `ZenTtsNode.load({ model: './bluesky.ztm' })`. Download the file and host it yourself: GitHub release URLs can't be fetched directly from a browser (no CORS headers).
+- Use with ZEN-TTS 1.2.0 or later (Bluesky-chan 1.0.0, for ZEN-TTS 1.1.0, stays in the release `bluesky-v1.0.0`): `ZenTts.load({ modelsUrl, model: '<url of the .ztm>' })` or `ZenTtsNode.load({ model: './bluesky.ztm' })`. Download the file and host it yourself: GitHub release URLs can't be fetched directly from a browser (no CORS headers).
 - **License** ([LICENSE.md](LICENSE.md)): the models may be used **only in open-source projects** (source code public, under an OSI-approved license); including the model file in such a project's source or repository is allowed. Use in projects that are not open source is not allowed. Put an attribution in the project's source code: the voice name, https://github.com/kojira/zen-tts-models and https://zenryokukikai.com.
 - ZEN-TTS itself is under the [ZEN-TTS License 1.0](https://github.com/zenryokukikai/zen-tts/blob/main/LICENSE.md), which requires the credit "Speech synthesis: ZEN-TTS (https://zenryokukikai.com )".
 - Machine-readable index: [`voices.json`](voices.json).

@@ -9,16 +9,16 @@
 | 項目 | 内容 |
 |---|---|
 | id | `bluesky` |
-| 版 | 1.0.0 |
-| ファイル | [`bluesky.ztm`](https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.0.0/bluesky.ztm)（26,075,652 バイト、リリース [`bluesky-v1.0.0`](https://github.com/kojira/zen-tts-models/releases/tag/bluesky-v1.0.0)） |
-| SHA-256 | `bcd817427f8b1e214d016c2f1712edde13dd677c37205bab6872dbfe61361345` |
+| 版 | 1.1.0 |
+| ファイル | [`bluesky.ztm`](https://github.com/kojira/zen-tts-models/releases/download/bluesky-v1.1.0/bluesky.ztm)（27,650,016 バイト、リリース [`bluesky-v1.1.0`](https://github.com/kojira/zen-tts-models/releases/tag/bluesky-v1.1.0)） |
+| SHA-256 | `fccfa172ab5d687e617d62cbb7154d36ef2bc0394cba97ef4bb2abec7c92df93` |
 | スタイル | `neutral`（ふつう）、`happy`（うれしい）、`sad`（かなしい）、`angry`（怒り）、`apologetic`（申し訳ない） |
-| 対応 | [ZEN-TTS](https://github.com/zenryokukikai/zen-tts) 1.1.0 以降（G2P `1a8877226dc7…`） |
+| 対応 | [ZEN-TTS](https://github.com/zenryokukikai/zen-tts) 1.2.0 以降（G2P `33182b3f988e…`）。1.0.0（ZEN-TTS 1.1.0 用）はリリース [`bluesky-v1.0.0`](https://github.com/kojira/zen-tts-models/releases/tag/bluesky-v1.0.0) にあります |
 | ライセンス | [LICENSE.md](../../LICENSE.md)（オープンソースのプロジェクトでのみ利用可、ソースコードに出典リンク） |
 
 ## サンプル
 
-ZEN-TTS 1.1.0（公開版）で `bluesky.ztm` から作りました（44.1 kHz、AAC 64 kbps、音量を -18 LUFS にそろえています）。
+ZEN-TTS 1.2.0（公開版）で `bluesky.ztm`（1.1.0）から作りました（44.1 kHz、AAC 64 kbps、音量を -18 LUFS にそろえています）。
 
 | スタイル | 文 | 音声 |
 |---|---|---|
